@@ -10,10 +10,10 @@ class CsrfFilter {
 	/**
 	 * Run the request filter.
 	 *
-	 * @param  \Illuminate\Routing\Route  $route
+	 * @param  \Illuminate\Routing\Route $route
 	 * @param  \Illuminate\Http\Request  $request
 	 * @return void
-	 * 
+	 *
 	 * @throws \Illuminate\Session\TokenMismatchException
 	 */
 	public function filter(Route $route, Request $request)

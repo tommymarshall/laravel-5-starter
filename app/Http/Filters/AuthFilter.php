@@ -9,7 +9,7 @@ class AuthFilter {
 	/**
 	 * Run the request filter.
 	 *
-	 * @param  \Illuminate\Routing\Route  $route
+	 * @param  \Illuminate\Routing\Route $route
 	 * @param  \Illuminate\Http\Request  $request
 	 * @return mixed
 	 */
